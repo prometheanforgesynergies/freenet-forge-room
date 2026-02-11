@@ -1,0 +1,12 @@
+[package]
+name = "freenet-forge-room"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+freenet-stdlib = { version = "0.1.30", features = ["contract"] }
+serde = { version = "1.0", features = ["derive"] }
+blake3 = "1.8.3"
